@@ -132,3 +132,30 @@ The project follows a 4-phase implementation plan:
 4. Testing & Deployment (unit tests, infrastructure as code)
 
 When making changes, consider which phase the feature belongs to and follow existing patterns in that area.
+
+## Progress Tracking
+
+The project uses a tracking sheet to monitor the progress of user stories and technical tasks:
+
+- **Tracking File**: `tracking_sheet.md` in the project root
+- **Purpose**: Monitor progress, record completed work, and identify upcoming tasks
+- **Update Frequency**: After completing each user story or technical task
+
+### How to Update the Tracking Sheet:
+
+1. **When completing a user story or technical task**:
+   - Update the status to "Completed"
+   - Add the completion date
+   - Add any relevant notes about the implementation
+   - Update the count in the Progress Summary section
+
+2. **When starting work on a user story or technical task**:
+   - Update the status to "In Progress"
+   - Record any initial findings or decisions in the Notes column
+
+3. **When adding new technical tasks**:
+   - Add a new row in the appropriate phase section
+   - Use consistent ID naming (e.g., "TT 2.3.4" for the 4th task of User Story 2.3)
+   - Include all required information (ID, User Story reference, Title, Estimated Hours, etc.)
+
+Always update the tracking sheet after completing work to ensure accurate progress tracking and to help with work resumption if development is paused.
