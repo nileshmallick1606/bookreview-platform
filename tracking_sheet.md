@@ -7,7 +7,7 @@ This document tracks the progress of user stories and technical tasks for the Bo
 
 | Phase | Total User Stories | Completed | Total Technical Tasks | Completed | Progress |
 |-------|-------------------|-----------|----------------------|-----------|----------|
-| 1: Setup & Infrastructure | 4 | 0 | 9+ | 0 | 0% |
+| 1: Setup & Infrastructure | 4 | 1 | 15 | 9 | 27% |
 | 2: Core Features | 6 | 0 | TBD | 0 | 0% |
 | 3: Advanced Features | 4 | 0 | TBD | 0 | 0% |
 | 4: Testing & Deployment | 4 | 0 | TBD | 0 | 0% |
@@ -17,23 +17,29 @@ This document tracks the progress of user stories and technical tasks for the Bo
 ### User Stories
 | ID | Title | Description | Story Points | Status | Completed Date | Notes |
 |----|-------|-------------|--------------|--------|----------------|-------|
-| US 1.1 | Project Setup | As a developer, I want to set up the project structure for both frontend and backend | 3 | Not Started | - | |
-| US 1.2 | User Registration | As a user, I want to create an account with email and password | 5 | Not Started | - | |
-| US 1.3 | User Login | As a user, I want to log in to my account | 5 | Not Started | - | |
-| US 1.4 | User Logout | As a user, I want to log out of my account | 2 | Not Started | - | |
+| US 1.1 | Project Setup | As a developer, I want to set up the project structure for both frontend and backend | 3 | Completed | 02-Sep-25 | Created project structure for both frontend and backend with all necessary files and configuration |
+| US 1.2 | User Registration | As a user, I want to create an account with email and password | 5 | In Progress | - | Foundation for authentication already set up in project structure |
+| US 1.3 | User Login | As a user, I want to log in to my account | 5 | Not Started | - | Will be implemented after User Registration |
+| US 1.4 | User Logout | As a user, I want to log out of my account | 2 | Not Started | - | Will be implemented after User Login |
 
 ### Technical Tasks
 | ID | User Story | Title | Estimated Hours | Status | Completed Date | Assignee | Notes |
 |----|------------|-------|-----------------|--------|----------------|----------|-------|
-| TT 1.1.1 | US 1.1 | Initialize React.js project using Create React App | 1 | Not Started | - | Frontend Developer | |
-| TT 1.1.2 | US 1.1 | Configure project structure | 2 | Not Started | - | Frontend Developer | |
-| TT 1.1.3 | US 1.1 | Set up routing with React Router | 2 | Not Started | - | Frontend Developer | |
-| TT 1.1.4 | US 1.1 | Configure state management (Redux or Context API) | 3 | Not Started | - | Frontend Developer | |
-| TT 1.1.5 | US 1.1 | Set up API service layer | 2 | Not Started | - | Frontend Developer | |
-| TT 1.1.6 | US 1.1 | Initialize Express.js project | 1 | Not Started | - | Backend Developer | |
-| TT 1.1.7 | US 1.1 | Configure middleware | 2 | Not Started | - | Backend Developer | |
-| TT 1.1.8 | US 1.1 | Set up file-based data storage | 2 | Not Started | - | Backend Developer | |
-| TT 1.1.9 | US 1.1 | Configure environment variables | 1 | Not Started | - | Backend Developer | |
+| TT 1.1.1 | US 1.1 | Initialize React.js project using Create React App | 1 | Completed | 02-Sep-25 | Frontend Developer | Used manual setup due to disk space limitations |
+| TT 1.1.2 | US 1.1 | Configure project structure | 2 | Completed | 02-Sep-25 | Frontend Developer | Created directory structure according to design docs |
+| TT 1.1.3 | US 1.1 | Set up routing with React Router | 2 | Completed | 02-Sep-25 | Frontend Developer | Implemented basic routing with React Router |
+| TT 1.1.4 | US 1.1 | Configure state management (Redux or Context API) | 3 | Completed | 02-Sep-25 | Frontend Developer | Used Context API for auth state management |
+| TT 1.1.5 | US 1.1 | Set up API service layer | 2 | Completed | 02-Sep-25 | Frontend Developer | Implemented API service with Axios |
+| TT 1.1.6 | US 1.1 | Initialize Express.js project | 1 | Completed | 02-Sep-25 | Backend Developer | Set up Express.js with directory structure |
+| TT 1.1.7 | US 1.1 | Configure middleware | 2 | Completed | 02-Sep-25 | Backend Developer | Implemented auth, error handling middleware |
+| TT 1.1.8 | US 1.1 | Set up file-based data storage | 2 | Completed | 02-Sep-25 | Backend Developer | Created repository pattern implementation |
+| TT 1.1.9 | US 1.1 | Configure environment variables | 1 | Completed | 02-Sep-25 | Backend Developer | Created .env and config files |
+| TT 1.2.1 | US 1.2 | Create user model with validation | 2 | Not Started | - | Backend Developer | |
+| TT 1.2.2 | US 1.2 | Implement user registration API endpoint | 3 | Not Started | - | Backend Developer | |
+| TT 1.2.3 | US 1.2 | Add password hashing and security | 2 | Not Started | - | Backend Developer | |
+| TT 1.2.4 | US 1.2 | Create registration form UI component | 2 | Not Started | - | Frontend Developer | |
+| TT 1.2.5 | US 1.2 | Connect frontend registration to API | 2 | Not Started | - | Frontend Developer | |
+| TT 1.2.6 | US 1.2 | Add form validation on frontend | 1 | Not Started | - | Frontend Developer | |
 
 ## Phase 2: Core Features
 
